@@ -1,0 +1,78 @@
+.principal {
+  height: 100vh;
+  background-image: linear-gradient(to right,#2e3293,#622d91);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensagem {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.caixa {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.campo img {
+  width: 15px;
+}
+
+.logo img {
+  margin: 10px 10px;
+}
+
+#campoUsuario {
+  margin-top: 30px;
+}
+
+#campoSenha {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 4px 4px;
+  width: 250px;
+  height: 20px;
+}
+
+.enviar {
+  width: 120px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.enviar:hover {
+  background-color: rgb(5, 164, 5);
+  cursor: pointer;
+}
+
